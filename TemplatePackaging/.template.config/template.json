@@ -5,7 +5,6 @@
     "classifications": [ "Kafka", "Consumer" , "Core"],
     "identity": "Quickstarter.Kafka.Consumer.Core",
     "name": "Quickstarter Kafka Consumer.Core",
-    "shortName": "quickstarter-kafka-consumer-core",
     "sourceName": "Kafka.Consumer.Core",
     "preferNameDirectory":true,
     "description": "A simple package for creating Kafka consumer project in C#.",
