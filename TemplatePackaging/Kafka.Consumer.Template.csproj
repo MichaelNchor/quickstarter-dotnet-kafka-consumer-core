@@ -11,7 +11,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Quickstarter.Kafka.Consumer.Core</PackageId>
-        <Version>1.0.0-alpha3</Version>
+        <Version>1.0.0-alpha4</Version>
         <Authors>Michael Nchor</Authors>
         <Description>A simple package for creating Kafka consumer project in C#.</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,7 +24,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\Kafka.Consumer.Core\**\*.cs" Exclude="..\Kafka.Consumer.Core\**\.vs\**;**\bin\**;**\obj\**;**\.signature;**\[Content_Types].xml;**\_rels\**;**\*.p7s;**\*.xml" Pack="true" PackagePath="package\" />
+        <None Include="..\Kafka.Consumer.Core\**\*" Exclude="..\Kafka.Consumer.Core\**\.vs\**;**\bin\**;**\obj\**;**\.signature;**\[Content_Types].xml;**\_rels\**;**\*.p7s;**\*.xml" Pack="true" PackagePath="package\" />
         <None Include="..\README.md" Pack="true" PackagePath="" />
         <None Include="quickstarter-icon.jpg" Pack="true" PackagePath="" CopyToOutputDirectory="Never" />
         <None Include=".template.config\template.json" Pack="true" PackagePath=".template.config/" CopyToOutputDirectory="Never"/>
