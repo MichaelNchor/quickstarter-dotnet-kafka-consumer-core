@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <OutputType>Library</OutputType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
@@ -26,6 +26,10 @@
         <None Include="..\README.md" Pack="true" PackagePath="" />
         <None Include="quickstarter-icon.jpg" Pack="true" PackagePath="" CopyToOutputDirectory="Never" />
         <None Include=".template.config\template.json" Pack="true" PackagePath=".template.config/" CopyToOutputDirectory="Never"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Content Include="..\Kafka.Consumer.Core\bin\Release\net6.0\Kafka.Consumer.Core.dll" Pack="true" PackagePath="lib/net8.0/" />
     </ItemGroup>
     
     <ItemGroup>
