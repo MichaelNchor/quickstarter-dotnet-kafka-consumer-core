@@ -12,9 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build
+        working-directory: ./Kafka.Consumer.Core
+        run: dotnet build -c Release
       - name: Pack
         working-directory: ./Kafka.Consumer.Core
-        run: dotnet pack -o .output
+        run: dotnet pack -c Release -o .output
       - name: Publish
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
