@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Pack
-        working-directory: ./TemplatePackaging
+        working-directory: ./Kafka.Consumer.Core
         run: dotnet pack -o .output
       - name: Publish
         env:
