@@ -1,4 +1,4 @@
-namespace Kafka.Consumer.Core.Services;
+namespace Quickstarter.Kafka.Consumer.Core.Services;
 
 public class KafkaConsumerLogic<TMessage, TConsumer> : IKafkaConsumerLogic, IDisposable where TMessage : class where TConsumer : KafkaConsumerBase
 {

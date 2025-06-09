@@ -1,4 +1,4 @@
-namespace Kafka.Consumer.Core.Options;
+namespace Quickstarter.Kafka.Consumer.Core.Options;
 
 public class KafkaConsumerConfig
 {

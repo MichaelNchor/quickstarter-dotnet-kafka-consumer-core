@@ -1,4 +1,4 @@
-namespace Kafka.Consumer.Core.Workers;
+namespace Quickstarter.Kafka.Consumer.Core.Workers;
 
 public class BackgroundRunner : BackgroundService
 {

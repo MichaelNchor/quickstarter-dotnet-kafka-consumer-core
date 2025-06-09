@@ -1,4 +1,4 @@
-namespace Kafka.Consumer.Core.Extensions;
+namespace Quickstarter.Kafka.Consumer.Core.Extensions;
 
 public static class SerializationExtensions
 {

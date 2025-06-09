@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Consumer.Core", "Kafka.Consumer.Core\Kafka.Consumer.Core.csproj", "{B4310F39-02C1-4238-86C0-0B98B06B7ACD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quickstarter.Kafka.Consumer.Core", "Quickstarter.Kafka.Consumer.Core\Quickstarter.Kafka.Consumer.Core.csproj", "{B4310F39-02C1-4238-86C0-0B98B06B7ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
