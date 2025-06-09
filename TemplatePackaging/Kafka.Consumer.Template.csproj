@@ -5,6 +5,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <NoBuild>false</NoBuild>
         <IncludeBuildOutput>true</IncludeBuildOutput>
+        <OutputType>Library</OutputType>
 
         <LangVersion>latestmajor</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
