@@ -3,8 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
-        <NoBuild>false</NoBuild>
-        <IncludeBuildOutput>true</IncludeBuildOutput>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <OutputType>Library</OutputType>
 
         <LangVersion>latestmajor</LangVersion>
@@ -24,7 +23,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\Kafka.Consumer.Core\**\*" Exclude="..\Kafka.Consumer.Core\**\.vs\**;**\bin\**;**\obj\**;**\.signature;**\[Content_Types].xml;**\_rels\**;**\*.p7s;**\*.xml" Pack="true" PackagePath="package\" />
+        <None Include="..\Kafka.Consumer.Core\**\*" Exclude="..\Kafka.Consumer.Core\**\.vs\**;**\bin\**;**\obj\**;" Pack="true" PackagePath="package\" />
         <None Include="..\README.md" Pack="true" PackagePath="" />
         <None Include="quickstarter-icon.jpg" Pack="true" PackagePath="" CopyToOutputDirectory="Never" />
         <None Include=".template.config\template.json" Pack="true" PackagePath=".template.config/" CopyToOutputDirectory="Never"/>
