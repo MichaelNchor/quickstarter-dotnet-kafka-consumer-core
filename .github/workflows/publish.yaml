@@ -13,10 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        working-directory: ./Kafka.Consumer.Core
+        working-directory: ./Quickstarter.Kafka.Consumer.Core
         run: dotnet build -c Release
       - name: Pack
-        working-directory: ./Kafka.Consumer.Core
+        working-directory: ./Quickstarter.Kafka.Consumer.Core
         run: dotnet pack -c Release -o .output
       - name: Publish
         env:
