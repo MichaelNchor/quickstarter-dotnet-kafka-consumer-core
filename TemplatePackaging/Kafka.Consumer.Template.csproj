@@ -29,7 +29,7 @@
     </ItemGroup>
     
     <ItemGroup>
-        <Content Include="..\Kafka.Consumer.Core\bin\Release\net6.0\Kafka.Consumer.Core.dll" Pack="true" PackagePath="lib/net8.0/" />
+        <Content Include="..\Kafka.Consumer.Core\bin\Release\net6.0\Kafka.Consumer.Core.dll" Pack="true" PackagePath="lib/net6.0/" />
     </ItemGroup>
     
     <ItemGroup>
