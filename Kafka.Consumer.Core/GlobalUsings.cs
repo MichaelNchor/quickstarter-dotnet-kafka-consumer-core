@@ -1,0 +1,13 @@
+global using System.ComponentModel.DataAnnotations;
+global using System.Linq.Expressions;
+global using System.Reflection;
+global using Confluent.Kafka;
+global using Kafka.Consumer.Core.Attributes;
+global using Kafka.Consumer.Core.Extensions;
+global using Kafka.Consumer.Core.Options;
+global using Kafka.Consumer.Core.Services;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using Newtonsoft.Json;
