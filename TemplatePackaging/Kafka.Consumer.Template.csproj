@@ -10,7 +10,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Quickstarter.Kafka.Consumer.Core</PackageId>
-        <Version>1.0.0-alpha4</Version>
+        <Version>1.0.0-alpha5</Version>
         <Authors>Michael Nchor</Authors>
         <Description>A simple package for creating Kafka consumer project in C#.</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
